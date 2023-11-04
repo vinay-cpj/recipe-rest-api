@@ -1,6 +1,6 @@
 ---
 name: Checks
-on: [pull_request]
+on: [push]
 jobs:
   test-lint:
     runs-on: ubuntu-20.04
